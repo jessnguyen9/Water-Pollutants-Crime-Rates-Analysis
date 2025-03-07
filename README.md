@@ -1,62 +1,27 @@
-#  project-one
-## Is the occurrence of lead service lines for water transportation infrastructure a predictor of crime rates in the US?
+# Exploring the Relationship Between Lead Service Lines and Crime Rates in the U.S.
+
+## Overview
+This project investigates whether the presence of lead service lines (LSLs) in water infrastructure is associated with crime rates in the United States. By conducting Exploratory Data Analysis (EDA), we examine potential correlations between water contamination and violent crime to determine if lead exposure may be a contributing factor to criminal behavior.
+
+## Objective
+- To explore the relationship between lead contamination in drinking water and crime rates at the city level.
+- To determine whether there is a significant correlation (positive, negative, or neutral) between the presence of lead service lines and violent crime.
+- To leverage data analytics and visualization techniques to present meaningful insights.
 
 ## Team members
 - Robert Erick
 - Peter Stine
 - Jess Nguyen
 
+## Data Sources
+We collected data from a variety of reputable sources, including:
+- **Environmental Protection Agency (EPA):** Data on lead contamination and water quality.
+- **Federal Bureau of Investigation (FBI) Uniform Crime Reporting (UCR) Program:** Crime statistics across U.S. cities.
+- **U.S. Census Bureau:** Demographic and population data for context.
+- **Kaggle Datasets:** Additional crime rate data for cross-validation.
+- **Geoapify API:** Geolocation data for mapping city-specific trends.
 
-## Description
-
-This project is regarding Exploratory Data Analysis (EDA) in the context of water pollutants and crime rates to determine what type of correlation there is (Positive, Neutral, or Negative).
-
----
-## Datasets
-The following URLs are resources used throughout the project for lines of investigation:
-
-PYTHON_API
-
-https://apidocs.geoapify.com
-
-FEDERAL_DATA
-
-https://www.epa.gov/enviro/envirofacts-data-service-api
-https://catalog.data.gov/dataset/examination-of-south-carolinas-sex-offender-registration-and-notification-sorn-policy-1990
-https://catalog.data.gov/dataset?tags=crime
-https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend
-https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/home
-https://edg.epa.gov/metadata/catalog/main/home.page
-https://enviro.epa.gov/enviro/ez_build_sql_v2.get_table
-https://map23.epa.gov/arcgis/rest/directories/arcgisoutput/Utilities/PrintingTools_GPServer/_ags_d5101c64-e3e4-11ed-9ffd-00505684bb18.pdf
-https://ucr.fbi.gov/crime-in-the-u.s
-https://ucr.fbi.gov/crime-in-the-u.s/2016/crime-in-the-u.s.-2016/topic-pages/tables/table-3
-https://ucr.fbi.gov/crime-in-the-u.s/2018/crime-in-the-u.s.-2018/topic-pages/tables/table-4
-https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/topic-pages/tables/table-5
-https://www.cdc.gov/niosh/topics/lead/trends.html
-https://www.census.gov/data.html
-https://www.epa.gov/enviro/tri-ez-search
-https://www.epa.gov/waterdata/waters-geospatial-data-downloads#NationalGeospatialDatasets
-https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/ucr
-https://www.in.gov/health/files/Pb_behavior_problems_and_violence_fact_sheet.pdf
-https://www.waterqualitydata.us/#mimeType=csv&providers=NWIS&providers=STEWARDS&providers=STORET
-https://www.waterqualitydata.us/portal_userguide/
-
-KAGGLE
-
-https://www.kaggle.com/datasets/christophercorrea/prisoners-and-crime-in-united-states
-https://www.kaggle.com/datasets/jameslko/gun-violence-data
-https://www.kaggle.com/datasets/marshallproject/crime-rates
-https://www.kaggle.com/datasets?search=county+health
-https://www.kaggle.com/search?q=crime+vs+income
-
-NEWS_ARTICLE
-
-https://www.mayoclinic.org/diseases-conditions/lead-poisoning/diagnosis-treatment/drc-20354723
-https://www.washingtonpost.com/archive/lifestyle/2000/05/26/chemicals-and-crime-a-truly-toxic-effect/ffcd0b0b-ba25-4ae9-8b83-368c925d49d8/
-
-OTHER
-
-https://www.acam.org/page/MembersLocation
-https://www.nrdc.org/resources/lead-pipes-are-widespread-and-used-every-state
-https://www.nrdc.org/resources/millions-served-water-systems-detecting-lead
+## Data Acquisition
+Extracted data from multiple sources, including government databases, APIs, and Kaggle.
+Used Python libraries such as requests to fetch real-time geolocation data.
+Collected historical records on lead exposure and violent crime trends.
