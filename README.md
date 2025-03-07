@@ -46,9 +46,10 @@ Identified cities with the highest correlation between lead exposure and violent
 
 Calculated statistical values such as the Pearson correlation coefficient (r = 0.26), indicating a weak but positive correlation.
 
-[violence v number lead discharges in missouri.pdf](https://github.com/user-attachments/files/19133516/violence.v.number.lead.discharges.in.missouri.pdf)
+![violence v number lead discharges in missouri](https://github.com/user-attachments/assets/85b30bf6-ef95-41a0-ac2f-e9d41b0446f4)
 
-[LSLs per 100k people v violent crime.pdf](https://github.com/user-attachments/files/19133517/LSLs.per.100k.people.v.violent.crime.pdf)
+![LSLs per 100k people v violent crime](https://github.com/user-attachments/assets/eee5ca2d-c5b1-4548-ae66-b5f6db2f2f59)
+
 
 ## Key Findings
 - Overall, there is a weak but positive correlation (r = 0.26) between the number of lead discharges and violent crime per capita.
