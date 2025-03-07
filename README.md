@@ -23,5 +23,7 @@ We collected data from a variety of reputable sources, including:
 
 ## Data Acquisition
 Extracted data from multiple sources, including government databases, APIs, and Kaggle.
+
 Used Python libraries such as requests to fetch real-time geolocation data.
+
 Collected historical records on lead exposure and violent crime trends.
